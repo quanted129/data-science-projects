@@ -1,0 +1,17 @@
+[project]
+name = "data-science-projects"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "factor-analyzer",
+    "ipywidgets",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pyreadstat",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "umap-learn",
+]
