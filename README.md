@@ -4,14 +4,14 @@ This repository contains a collection of Data Science projects implemented mostl
 
 ## Course information
 
-The coursework involves handling real-world tabular and economic datasets with modern tools to extract useful information about a given dataset. This means that any project involving data analysis will involve uncovering properties, finding patterns and manipulating data in a way that will provide pure actionable information **without** any interpretation of the results gathered along the way, as this is subjective and lies beyond the scope of this DS-focused course.
+The coursework involves handling real-world tabular and economic datasets with modern tools to extract useful information about a given dataset. This means that any project involving data analysis will involve uncovering properties, finding patterns, and manipulating data in a way that will provide pure actionable information **without** any interpretation of the results gathered along the way, as this is subjective and lies beyond the scope of this DS-focused course.
 
 ### Projects Directory
 
-| № | Directory | Topic | Tools & techniques |
-|---|---|---|---|
-| 1 | `preliminary-and-correlation-analysis/` | Data Cleaning & Statistical Screening | Hampel Filter tuning, Shapiro-Wilk / KS / χ² normality tests, Spearman correlation, Collinearity screening |
-| 2 | `factor-analysis-and-dimensionality-reduction/` | Factor Analysis & Manifold Learning | Bartlett sphericity & KMO tests, PCA, Varimax & Quartimax rotations, Creditworthiness index, KernelPCA, Isomap, UMAP, t-SNE, Trustworthiness validation |
+| № | Directory                                       | Topic | Tools & techniques |
+|---|-------------------------------------------------|---|---|
+| 1 | `preliminary_and_correlation_analysis/`         | Data Cleaning & Statistical Screening | Hampel Filter tuning, Shapiro-Wilk / KS / χ² normality tests, Spearman correlation, Collinearity screening |
+| 2 | `factor_analysis_and_dimensionality_reduction/` | Factor Analysis & Manifold Learning | Bartlett sphericity & KMO tests, PCA, Varimax & Quartimax rotations, Creditworthiness index, KernelPCA, Isomap, UMAP, t-SNE, Trustworthiness validation |
 
 ---
 
@@ -36,17 +36,14 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 - Clone the repository and install dependencies using `uv`:
 ```bash
+git clone https://github.com/quanted129/data-science-projects
+cd data-science-projects
 uv sync
 ```
 
-- Launch your preferred Jupyter environment:
+- Launch your preferred Jupyter environment and open any project's `.ipynb` notebook from the file browser:
 ```bash
 uv run jupyter lab
-```
-
-- Navigate to the desired project folder and run the corresponding `.ipynb` file:
-```bash
-uv run jupyter notebook [filename].ipynb
 ```
 
 *Note: Notebooks contain pre-rendered figures and evaluation metrics for direct previewing on GitHub.*
