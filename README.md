@@ -12,7 +12,7 @@ The coursework involves handling real-world tabular and economic datasets with m
 |---|-------------------------------------------------|---|---|
 | 1 | `preliminary_and_correlation_analysis/`         | Data Cleaning & Statistical Screening | Hampel Filter tuning, Shapiro-Wilk / KS / χ² normality tests, Spearman correlation, Collinearity screening |
 | 2 | `factor_analysis_and_dimensionality_reduction/` | Factor Analysis & Manifold Learning | Bartlett sphericity & KMO tests, PCA, Varimax & Quartimax rotations, Creditworthiness index, KernelPCA, Isomap, UMAP, t-SNE, Trustworthiness validation |
-
+| 3 | `cluster_analysis/`                             | Cluster Analysis & Visualization | Variance-based correlation filtering, PCA, Quartimax rotations, K-Means clustering, Silhouette scoring, 3D factor space visualization, t-SNE manifold comparison |
 ---
 
 ## Tech Stack
